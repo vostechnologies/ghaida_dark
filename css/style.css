@@ -552,7 +552,7 @@ ul.dropdown-menu li {
 }
 @media (max-width: 992px) {
   #navbar {
-    background: #fff;
+    background: #202020;
   }
   #navbar.nav-text-white .nav-link {
     color: #111;
@@ -635,7 +635,7 @@ ul.dropdown-menu li {
     line-height: 40px;
   }
   .banner {
-    padding: 0 0 151px 0;
+    padding: 0 0 0 0;
     background: #fff !important;
   }
 }
@@ -655,7 +655,7 @@ ul.dropdown-menu li {
 }
 @media (max-width: 1200px) {
   .banner {
-    background: #fff !important;
+    background: #202020 !important;
   }
 }
 .about-item i {
