@@ -1138,10 +1138,10 @@ ul.dropdown-menu li {
 }
 .project-info-list li {
   margin-bottom: 13px;
+  color: #6c757d;
 }
 .project-info-list li strong {
   font-weight: 500;
-  color: #111;
 }
 
 .contact-form-wrap .form-group {
