@@ -555,7 +555,7 @@ ul.dropdown-menu li {
     background: #202020;
   }
   #navbar.nav-text-white .nav-link {
-    color: #111;
+    color: #ffffff;
   }
   #navbar.nav-text-white .mobile-logo {
     display: block;
@@ -704,7 +704,8 @@ ul.dropdown-menu li {
   padding-top: 16px;
   border-radius: 10px;
   display: inline-block;
-  color: #6c757d;
+  color: rgb(176, 150, 102); 
+
 }
 .icon-block h5 {
   margin-top: 25px;
@@ -847,7 +848,7 @@ ul.dropdown-menu li {
 }
 .service-img img {
   border-radius: 5px;
-  box-shadow: 0px 0px 40px 0px rgba(85, 128, 255, 0.2);
+  box-shadow: 0px 0px 40px 0px rgba(101, 95, 55, 0.253);
 }
 
 .heading {
@@ -1060,9 +1061,6 @@ ul.dropdown-menu li {
 
 .portfolio {
   position: relative;
-}
-.portfolio-head h2{
-  color: beige;
 }
 
 .portfolio:before {
@@ -1715,6 +1713,11 @@ ul.dropdown-menu li {
   color: #ffffff !important;
 }
 
+/* Contact Form */
+.myform input{
+  background-color: #202020;
+}
+/* Contact Form */
 
 /* Custom background colours */
 .mybg-black{
@@ -1732,3 +1735,7 @@ ul.dropdown-menu li {
 .mytext-grey{
   color: #6c757d;
 }
+.mytext-yellow{
+  color: rgb(176, 150, 102); 
+}
+/* Custom background colours */
