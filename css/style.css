@@ -1638,14 +1638,14 @@ ul.dropdown-menu li {
 	position: relative;
 	height: 100%;
 	width:100%;
-	background: url('../images/slider1.jpg');
+	background: url('../images/slider3.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 @media (max-width: 600px){
 	#carouselExampleIndicators .carousel-inner .carousel-item{
-		background: url("../images/about1.jpg") !important;
+		background: url("../images/about3.jpg") !important;
 		background-size: 100% 100%;
 		background-position: center;
 		background-attachment: fixed;
@@ -1667,14 +1667,14 @@ ul.dropdown-menu li {
 
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-	background: url('../images/slider3.jpg');
+	background: url('../images/slider1.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 @media only screen and (max-width: 600px){
 	#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-		background: url("../images/about3.jpg") !important;
+		background: url("../images/about1.jpg") !important;
 		background-size: 100% 100%;
 		background-position: center;
 		background-attachment: fixed;
