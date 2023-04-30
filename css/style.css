@@ -1680,6 +1680,20 @@ ul.dropdown-menu li {
 		background-attachment: fixed;
 	}
 }
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(4) {
+  background: url('../images/slider4.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(5) {
+  background: url('../images/slider5.jpeg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
 #carouselExampleIndicators .carousel-inner .carousel-item .info{
 	position: absolute;
 	top: 50%;
