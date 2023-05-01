@@ -791,6 +791,7 @@ ul.dropdown-menu li {
 }
 .counter .counter-item h2 {
   color: beige;
+  font-size: 40px;
 }
 .counter .counter-item p {
   color: rgba(255, 255, 255, 0.7);
@@ -798,7 +799,9 @@ ul.dropdown-menu li {
   letter-spacing: 1px;
   margin-bottom: 0px;
 }
-
+.counter-stat{
+  font-size: 40px;
+}
 .counter--style i {
   font-size: 40px;
   width: 100px;
