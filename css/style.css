@@ -1688,11 +1688,29 @@ ul.dropdown-menu li {
   background-attachment: fixed;
 }
 
+@media only screen and (max-width: 600px) {
+  #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(4) {
+    background: url("../images/slider4_1.jpg") !important;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(5) {
   background: url('../images/slider5.jpeg');
   background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+  #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(5) {
+    background: url("../images/slider5_1.jpg") !important;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+  }
 }
 #carouselExampleIndicators .carousel-inner .carousel-item .info{
 	position: absolute;
