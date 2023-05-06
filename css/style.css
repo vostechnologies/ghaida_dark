@@ -1853,3 +1853,12 @@ ul.dropdown-menu li {
   transform: translateY(20px);
   transition-delay: 3s; /* Add a delay */
 }
+
+@media (max-width: 700px){
+  .floating-menu:not(:hover) .floating-menu-content {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition-delay: 0s; /* Add a delay */
+  }
+}
