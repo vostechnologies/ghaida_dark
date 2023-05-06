@@ -1779,3 +1779,77 @@ ul.dropdown-menu li {
 .custom-img{
   border: #ffffff;
 }
+
+.floating-menu {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999;
+}
+
+.floating-menu-button {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(176, 150, 102);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.floating-menu-content {
+  position: absolute;
+  bottom: 80px;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: visibility 0s, opacity 0.3s, transform 0.3s;
+}
+
+.floating-menu-content a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 60px;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.3s, color 0.3s;
+}
+.floating-menu-content a:nth-of-type(1) {
+  background-color: #4FCE5D;
+}
+
+.floating-menu-content a:nth-of-type(2) {
+  background-color: #0275d8;
+}
+
+.floating-menu-content a:nth-of-type(3) {
+  background-color: #D44638;
+}
+.floating-menu-content a:hover {
+  background-color: rgb(127, 127, 127);
+  color: #fff;
+}
+
+.floating-menu:hover .floating-menu-content {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0s; /* Remove the delay */
+}
+
+.floating-menu:not(:hover) .floating-menu-content {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  transition-delay: 3s; /* Add a delay */
+}
