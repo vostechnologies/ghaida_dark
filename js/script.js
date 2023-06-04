@@ -150,3 +150,12 @@ $(window).scroll(function () {
     time: 1000,
   });
 })(jQuery);
+
+document.addEventListener("DOMContentLoaded", function() {
+  var navbar = document.getElementById("navbar");
+  var navbarToggler = navbar.querySelector(".navbar-toggler");
+
+  navbarToggler.addEventListener("click", function() {
+    navbar.classList.toggle("navbar-black");
+  });
+});
