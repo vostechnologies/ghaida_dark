@@ -551,7 +551,10 @@ ul.dropdown-menu li {
 }
 @media (max-width: 992px) {
   #navbar {
-    background: #202020;
+    background: #ffffff00;
+  }
+  #navbar.navbar-black {
+    background: #111111;
   }
   #navbar.nav-text-white .nav-link {
     color: #ffffff;
